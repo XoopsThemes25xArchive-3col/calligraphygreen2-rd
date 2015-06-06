@@ -1,0 +1,121 @@
+body {background-image: url(none); background-color: #D0DDD3; font-family: tahoma, arial, times new roman, san-serif; font-size: 10px; color: #2C3E32; margin: 0; padding: 0;}
+
+table {background-image: url(none); width: 100%; margin: 5; padding: 5; font-size: 11px; background-color: #D0DDD3;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a {font-family: arial, times new roman, san-serif; font-size: 11px; color: #0000FF; text-decoration: none; font-weight: normal; background-color: transparent;}
+a:hover {font-family: arial, times new roman, san-serif; font-size: 11px; font-weight: normal; color: #0C5E1A;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #08400F;}
+
+input.formButton {}
+
+.item {border: 1px solid #A48686;}
+.itemHead {padding: 3px; background-color: #A5BDAD; color: #08400F;}
+.itemInfo {text-align: right; padding: 3px; background-color: #B7CDBD;}
+.itemTitle a {font-size: 105%; font-weight: bold; font-variant: small-caps; color: #08400F; background-color: transparent;}
+.itemTitle a:hover {font-size: 105%; font-weight: bold; font-variant: small-caps; color: #CEDECE; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #B7CDBD;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {background-color: #B7CDBD; color: #0C5E1A; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#headerbanner {background-image: url(headerbg.jpg); background-repeat: repeat-x; width: 100%; height: 90px; background-color: #CEDECE; vertical-align: middle; text-align: right; padding-right: 0px;}
+td#headerbar {background-color: #2C3E32;  background-image: url(none); color: #000000; height: 20px; text-align: center; font-weight: bold; font-family: tahoma, arial, times new roman, sans-serif; font-size: 10px; vertical-align: middle;}
+
+td#leftcolumn {background-image: url(none); width: 170px; border-right: 1px solid #08400F; border-bottom: 2px inset #08400F; font-size:11px; background-color: #CADFD0;}
+td#leftcolumn th {background-color: #B7CDBD; color: #0C5E1A; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding-top: 14px; background-image: url(titlebg.gif); background-repeat: no-repeat; background-position: 50% 0%; background-color: #B7CDBD; color: #0C5E1A; font-weight: bold; text-align: center; border: outset 1px #08400F;}
+td#leftcolumn div.blockContent {padding: 8px; line-height: 120%; line-height: 120%;}
+
+
+#centercolumn {font-size: 11px; border-bottom: 2px inset #08400F; }
+#centercolumn th {background-color: #B7CDBD; color: #0C5E1A; vertical-align: middle;}
+
+#centerCcolumn, #bottomCcolumn {padding: 0px 3px 2px 3px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {font-family: tahoma, arial, times new roman, san-serif; padding: 3px; color: #000000; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-align: center;}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent {padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%; border: 2px inset #A5BDAD;}
+
+#centerLcolumn, #bottomLcolumn, #centerRcolumn, #bottomRcolumn {
+	width: 50%; padding: 0px 3px 0px 0px;
+}
+#centerLcolumn .blockTitle, #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {
+	padding: 3px; color: #000000; font-weight: bold; margin-top: 0px;
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent, #bottomLcolumn .blockContent, #bottomRcolumn .blockContent {
+	border: 2px inset #A5BDAD; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;
+}
+
+div#content {text-align: left; padding: 8px;}
+
+td#rightcolumn {background-image: url(none); width: 170px; border-left: 1px solid #08400F; border-bottom: 2px inset #08400F;  font-size:11px; background-color: #CADFD0;}
+td#rightcolumn th {background-color: #B7CDBD; color: #0C5E1A; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding-top: 14px; background-image: url(titlebg.gif); background-repeat: no-repeat; background-position: 50% 0%; background-color: #B7CDBD; color: #0C5E1A; font-weight: bold; text-align: center; border: outset 1px #08400F;}
+td#rightcolumn div.blockContent {padding: 8px; line-height: 120%;}
+
+tr#footerbar {text-align: center; background-image: url(fbar.gif); background-repeat: repeat; padding-top: 8px; font-size: 10px; color: #000000; font-weight: normal;}
+
+td#mainmenu a {background-color: #A5BDAD; color: #2C3E32; font-weight: normal; display: block; margin: 0; padding: 4px; border-style: outset; border-top-width: 1px; border-bottom-width: 1px; border-left-width:1px; border-right-width: 1px; border-left-color: #2C3E32; border-top-color: #CEDECE; border-right-color: #CEDECE; border-bottom-color: #2C3E32;}
+td#mainmenu a:hover {background-color: #2C3E32; color: #A5BDAD; border-style: inset; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-left-color: #dfdfdf; border-top-color: #dfdfdf; border-right-color: #dfdfdf; border-bottom-color: #dfdfdf;}
+td#mainmenu a.menuTop {border-top: 1px solid #A5BDAD;}
+td#mainmenu a.menuMain {padding-left: 3px; border-right: 1px outset #CEDECE; border-bottom: 1px outset #2C3E32; border-left: 1px outset #2C3E32;}
+td#mainmenu a.menuSub {padding-left: 9px; border-right: 1px outset #ffffff; border-bottom: 1px outset #2C3E32; border-left: 1px outset #2C3E32; font-style: italic;}
+
+td#usermenu a {background-color: #A5BDAD; color: #2C3E32; font-weight: normal; display: block; margin: 0; padding: 4px; border-style: outset; border-top-width: 1px; border-bottom-width: 1px; border-left-width:1px; border-right-width: 1px; border-left-color: #2C3E32; border-top-color: #CEDECE; border-right-color: #CEDECE; border-bottom-color: #2C3E32;}
+td#usermenu a:hover {background-color: #2C3E32; color: #A5BDAD; border-style: inset; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-left-color: #dfdfdf; border-top-color: #dfdfdf; border-right-color: #dfdfdf; border-bottom-color: #dfdfdf;}
+td#usermenu a.menuTop {border-top: 1px solid #A5BDAD;}
+td#usermenu a.highlight {background-color: #cccccc;}
+
+
+
+.outer {border: 1px solid silver;}
+.head {background-color: #B7CDBD; padding: 5px; font-weight: bold; color: #2C3E32;}
+.even {background-color: #A5BDAD; padding: 5px;}
+.odd {background-color: #B7CDBD; padding: 5px;}
+.foot {background-color: #B7CDBD; padding: 5px; font-weight: bold; color: #2C3E32;}
+tr.even td {background-color: #A5BDAD; padding: 5px;}
+tr.odd td {background-color: #B7CDBD; padding: 5px;}
+
+div.errorMsg { background-color: #0C5E1A; text-align: center; border-top: 1px inset #A5BDAD; border-left: 1px inset #A5BDAD; border-right: 1px inset #799F86; border-bottom: 1px inset #799F86; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #A5BDAD; color: #9B1313; text-align: center; border-top: 1px inset #A5BDAD; border-left: 1px inset #A5BDAD; border-right: 1px inset #799F86; border-bottom: 1px inset #799F86; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #A5BDAD; color: #333333; text-align: center; border-top: 1px inset silver; border-left: 1px inset silver; font-weight: bold; border-right: 1px inset #7B5D5D; border-bottom: 1px inset #7B5D5D; padding: 10px;}
+
+div.xoopsCode { background: #A5BDAD; border: 1px inset #820600; color: #2C3E32; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; width: 400px; height: 150px; max-height: 150px; margin: 0.5em; overflow: auto;}
+div.xoopsQuote { background: #A5BDAD; border: 1px inset #820600; color: #2C3E32; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; width: 400px; height: 150px; max-height: 150px; margin: 0.5em; overflow: auto;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2C3E32; font-weight:bold; border: 1px inset #A5BDAD; background-color: #A5BDAD; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2C3E32; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.clockbar {width: 100%; background-color: #D0DDD3; border-top: 1px inset #A5BDAD; border-bottom: 2px inset #A5BDAD; padding-top: 4px;}
+td#welcome {width: 190px; font-family: tahoma, arial, verdana, times new roman, san-serif; font-size: 10px; text-indent: 5px; color: #000000; font-weight: bold; vertical-align: middle;}
+td#clocktext {font-family: verdana, arial, times new roman, san-serif; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle;}
+td#search {width: 190px; color: #000000; text-align: right; font-weight: bold; font-family: tahoma, arial, times new roman, sans-serif; font-size: 10px; vertical-align: middle; padding-right: 5px;}
+
+td#headermenu {background-color: #2C3E32; background-image: url(none); border-top: 1px solid #CEDECE; height: 20px; text-align: center; vertical-align: bottom; color: #ffffff;}
+td#headermenu a {font-family: arial, times new roman, san-serif; font-size: 11px; color: #CEDECE; text-decoration: underline; font-weight: bold; background-color: transparent;}
+td#headermenu a:hover {font-family: arial, times new roman, san-serif; font-size: 11px; font-weight: bold; color: #B7CDBD; text-decoration: underline;}
+
